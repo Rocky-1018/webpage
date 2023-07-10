@@ -1,0 +1,306 @@
+ /* Media Query for Mobile Devices */
+ @media (max-width: 480px) {
+    body,* {
+        margin:0px;
+        
+    }
+    
+    
+    .name{
+        text-align: center;
+        padding-top: 1%;
+        margin-bottom: 2%;
+
+    }
+    .designation{
+        text-align: center;
+        margin:0px;
+        padding-bottom: 2%;
+    }
+    .resumeheader{
+        background-color: rgb(203, 255, 255);
+        width:100%;
+        
+    }
+    .title{
+        color:rgb(115, 175, 175);
+        text-align: center;
+    }
+    .content{
+        display:grid;
+        grid-template-columns: 100%;
+        width:100%;
+        
+    }
+    .resumeheader{
+        grid-column: 1/2;
+        grid-row: 1/2;
+
+    }
+    .aboutme{
+        grid-column: 1/2;
+        grid-row: 2/3;
+        padding-top: 1%;
+    }
+    .skills{
+        grid-column: 1/2;
+        grid-row: 3/4;
+        background-color: rgb(203, 255, 255);
+    }
+    .interests{
+        grid-column: 1/2;
+        grid-row: 4/5;
+    }
+    .contact{
+        grid-column: 1/2;
+        grid-row: 5/6;
+        background-color: rgb(203, 255, 255);
+    }
+    .professionalexp{
+        grid-column: 1/2;
+        grid-row: 7/8;
+        background-color: rgb(203, 255, 255);
+    }
+    .education{
+       
+        grid-column: 1/2;
+        grid-row: 7/8;
+    }
+    .Availability{
+        
+        grid-column: 1/2;
+        grid-row: 8/9;
+
+    }
+    .all-skills{
+        text-align: center;
+        }
+    .b-content{
+        text-align: center;
+        margin:0px 10px 0px 10px;
+        list-style:none ;
+    }
+    .ava-table{
+        
+        text-align: center;
+        margin:0% 5%;
+        border:2px solid black;
+    }  
+    .proexp-more{
+        text-align: center;
+    }  
+}
+  
+
+@media (min-width: 481px) and (max-width: 1280px) {
+    * {
+        margin:0px;
+    }
+    body{
+        margin:5px;
+        background-color:bisque
+    }
+    
+    
+    .name{
+        text-align: center;
+        padding-top: 1%;
+        margin-bottom: 2%;
+
+    }
+    .designation{
+        text-align: center;
+        margin:0px;
+        padding-bottom: 2%;
+    }
+    .resumeheader{
+        background-color: rgb(203, 255, 255);
+        width:100%;
+        
+    }
+    .title{
+        color:rgb(115, 175, 175);
+        text-align: center;
+    }
+    .content{
+        display:grid;
+        grid-template-columns: 50% 50%;
+        width:100%;
+        
+    }
+    .resumeheader{
+        grid-column: 1/3;
+        grid-row: 1/2;
+
+    }
+    .aboutme{
+        grid-column: 1/3;
+        grid-row: 2/3;
+        padding-top: 1%;
+    }
+    .skills{
+        grid-column: 1/3;
+        grid-row: 3/4;
+        background-color: rgb(203, 255, 255);
+    }
+    .interests{
+        grid-column: 1/2;
+        grid-row: 4/5;
+    }
+    .contact{
+        grid-column: 2/3;
+        grid-row: 4/5;
+        
+    }
+    .professionalexp{
+        grid-column: 1/3;
+        grid-row: 5/6;
+        background-color: rgb(203, 255, 255);
+    }  
+    .Availability{
+        grid-column: 1/3;
+        grid-row: 7/8;
+        text-align: center;
+    }   
+    .name{
+            text-align: center;
+            padding-top: 1%;
+            margin-bottom: 2%;
+    
+        }
+     
+        
+    }
+    .education{
+        
+        grid-column: 1/3;
+        grid-row: 6/7;
+    }
+    .all-skills{
+        text-align: center;
+        width:100%;
+        }
+    .b-content{
+        text-align: center;
+        
+        list-style:none ;
+    }
+    .ava-table{
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+        
+        border:2px solid black;
+    }  
+    .proexp-more{
+        text-align: center;
+    }
+    
+ 
+
+  
+@media (min-width: 1281px) {
+    * {
+        margin:0px;
+    }
+    body{
+        margin:5px;
+        background-color:bisque
+    }
+    
+    
+    .name{
+        text-align: center;
+        padding-top: 1%;
+        margin-bottom: 2%;
+
+    }
+    .designation{
+        text-align: center;
+        margin:0px;
+        padding-bottom: 2%;
+    }
+    .resumeheader{
+        background-color: rgb(203, 255, 255);
+        width:100%;
+        
+    }
+    .title{
+        color:rgb(115, 175, 175);
+        text-align: center;
+    }
+    .content{
+        display:grid;
+        grid-template-columns: 50% 50%;
+        width:100%;
+        
+    }
+    .resumeheader{
+        grid-column: 1/3;
+        grid-row: 1/2;
+
+    }
+    .aboutme{
+        grid-column: 1/3;
+        grid-row: 2/3;
+        padding-top: 1%;
+    }
+    .skills{
+        grid-column: 1/3;
+        grid-row: 3/4;
+        background-color: rgb(203, 255, 255);
+    }
+    .interests{
+        grid-column: 1/2;
+        grid-row: 4/5;
+    }
+    .contact{
+        grid-column: 2/3;
+        grid-row: 4/5;
+        
+    }
+    .professionalexp{
+        grid-column: 1/3;
+        grid-row: 5/6;
+        background-color: rgb(203, 255, 255);
+    }  
+    .Availability{
+        grid-column: 1/3;
+        grid-row: 7/8;
+        text-align: center;
+    }   
+    .name{
+            text-align: center;
+            padding-top: 1%;
+            margin-bottom: 2%;
+    
+        }
+     
+        
+    }
+    .education{
+        
+        grid-column: 1/3;
+        grid-row: 6/7;
+    }
+    .all-skills{
+        text-align: center;
+        width:100%;
+        }
+    .b-content{
+        text-align: center;
+        
+        list-style:none ;
+    }
+    .ava-table{
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+        
+        border:2px solid black;
+    }  
+    .proexp-more{
+        text-align: center;
+    }
+    
+
